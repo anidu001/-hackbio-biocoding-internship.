@@ -11,7 +11,7 @@ We followed the instructions to include key details about each team member, such
 - Discipline  
 - Preferred programming language  
 
-We used basic R syntax and data structures** without any loops, functions, or conditionals, as per the task requirements.  
+We used basic R syntax and data structures without any loops, functions, or conditionals, as per the task requirements.  
 
 The final solution consists of a straightforward **print statement** for each team member, ensuring a well-structured and easily readable output.  
 
