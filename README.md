@@ -1,6 +1,8 @@
-$HackBio Biocoding Internship – Stage 1 Solutions$
+*HackBio Biocoding Internship – Stage 1 Solutions*
+
 To tackle this task, we developed a set of R scripts for Stage 1 of the HackBio Biocoding Internship. These scripts focus on problems related to genomics and population modelling.
-Project Overview
+
+*Project Overview*
 In this repository, we have implemented four key scripts:
 Translating DNA sequences into protein sequences
 Simulating and visualizing logistic growth curves
