@@ -1,8 +1,8 @@
-*HackBio Biocoding Internship – Stage 1 Solutions*
+**HackBio Biocoding Internship – Stage 1 Solutions**
 
 We developed a set of R scripts for Stage 1 of the HackBio Biocoding Internship to tackle this task. These scripts focus on problems related to genomics and population modelling.
 
-*Project Overview*
+**Project Overview**
 
 In this repository, we have implemented four key scripts:
 Translating DNA sequences into protein sequences
@@ -11,7 +11,7 @@ Determining the time required to reach 80% of carrying capacity in a logistic mo
 Calculating the Hamming distance between two strings
 Each script is designed to handle a specific computational biology challenge, helping to analyze biological data effectively.
 
-+Installation & Setup+
+**Installation & Setup**
 
 Installing R
 
@@ -20,10 +20,14 @@ Installing Required Packages
 Some scripts require additional R packages. These can be installed using:
 install.packages(c("ggplot2", "dplyr"))
 
-Script Breakdown
+**Script Breakdown**
+
 Translating DNA to Protein Sequences
+
 One of the tasks involved converting a DNA sequence into a protein sequence using the standard genetic code.
+
 How We Did It:
+
 Took a DNA sequence as input.
 Split it into codons (triplets).
 Mapped each codon to its corresponding amino acid.
@@ -35,9 +39,12 @@ dna_sequence <- "ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG"
 protein <- dna_to_protein(dna_sequence)
 print(protein)  # Output: "MAMIVMGRAKGA*"
 
-Simulating Logistic Growth Curves
+**Simulating Logistic Growth Curves**
+
 Another task was to simulate logistic growth and visualize the results.
+
 How We Did It:
+
 Used a logistic growth model to simulate population dynamics.
 Introduced variability in growth phases.
 Generated growth curves for 100 populations.
@@ -48,9 +55,12 @@ source("logistic_growth.R")
 growth_data <- generate_growth_data(100)
 head(growth_data)  # View first few rows
 
-Finding Time to Reach 80% of Carrying Capacity
+**Finding Time to Reach 80% of Carrying Capacity**
+
 To better understand population growth, we calculated the time it takes to reach 80% of the carrying capacity (K).
+
 How We Did It:
+
 Simulated logistic growth over time.
 Identified the time point where the population first reached 80% of K.
 Example:
@@ -62,11 +72,13 @@ time_80 <- time_to_80_percent(growth_curve)
 
 print(paste("Time to reach 80% of K:", time_80))
 
-Calculating Hamming Distance Between Two Strings
-Lastly, we implemented a script to calculate the Hamming distance between two strings—useful for comparing genetic sequences or even usernames.
+**Calculating Hamming Distance Between Two Strings**
+Lastly, we implemented a script to calculate the Hamming distance between two strings, which was helpful in comparing genetic sequences or usernames.
+
 How We Did It:
+
 Adjusted string lengths to match.
-Compared characters at each position.
+Compare characters at each position.
 Counted the number of mismatches.
 Example:
 source("hamming_distance.R")
