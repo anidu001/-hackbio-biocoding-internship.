@@ -1,16 +1,20 @@
 *HackBio Biocoding Internship – Stage 1 Solutions*
 
-To tackle this task, we developed a set of R scripts for Stage 1 of the HackBio Biocoding Internship. These scripts focus on problems related to genomics and population modelling.
+We developed a set of R scripts for Stage 1 of the HackBio Biocoding Internship to tackle this task. These scripts focus on problems related to genomics and population modelling.
 
 *Project Overview*
+
 In this repository, we have implemented four key scripts:
 Translating DNA sequences into protein sequences
 Simulating and visualizing logistic growth curves
 Determining the time required to reach 80% of carrying capacity in a logistic model
 Calculating the Hamming distance between two strings
 Each script is designed to handle a specific computational biology challenge, helping to analyze biological data effectively.
-Installation & Setup
+
++Installation & Setup+
+
 Installing R
+
 If R is not already installed, it can be downloaded from CRAN.
 Installing Required Packages
 Some scripts require additional R packages. These can be installed using:
