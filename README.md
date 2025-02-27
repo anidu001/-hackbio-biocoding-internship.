@@ -93,6 +93,13 @@ These scripts allowed us to apply computational approaches to biological problem
 
 
 
+
+
+
+
+
+
+
 **HackBio Biocoding Internship - Stage 2 Solutions** 
 
 This repository contains our solutions for Stage 2 of the HackBio Biocoding Internship, all implemented in R. Each task includes a brief explanation along with the R code used to solve it.  
